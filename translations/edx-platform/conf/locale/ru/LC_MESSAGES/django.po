@@ -3,29 +3,29 @@
 # Copyright (C) 2025 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  wiki.po (0.1a)  #-#-#-#-#
 # edX translation file
 # Copyright (C) 2025 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  edx_proctoring_proctortrack.po (0.1a)  #-#-#-#-#
 # edX translation file
 # Copyright (C) 2025 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  mako.po (PROJECT VERSION)  #-#-#-#-#
 # Translations template for PROJECT.
 # Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-# 
+#
 # Translators:
 # edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025
 # Brian Smith, 2025
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -18006,6 +18006,10 @@ msgstr ""
 msgid "Grading Configuration"
 msgstr "Настройки оценивания"
 
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:19
+msgid "The CSV of anonymized student IDs download has been relocated to the Reports section below."
+msgstr "CSV-файл с данными об анонимных студенческих удостоверениях загружен в раздел «Отчёты» ниже."
+
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:26
 msgid "Reports"
 msgstr "Отчёты"
@@ -18083,9 +18087,23 @@ msgstr ""
 "Нажмите, чтобы создать файл в формате CSV с результатами опроса по этому "
 "курсу."
 
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:53
+msgid "Select a problem to generate a CSV file that lists all student answers to the problem. You also select a section or chapter to include results of all problems in that section or chapter."
+msgstr "Выберите задачу, чтобы создать CSV-файл со списком ответов всех учащихся. Также выберите раздел или главу, чтобы включить результаты всех задач в этом разделе."
+
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:54
 msgid "Generate Survey Results Report"
 msgstr "Создать отчёт о результатах опроса"
+
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:57
+msgid "NOTE"
+msgstr "ПРИМЕЧАНИЕ"
+
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:58
+msgid "The generated report is limited to {max_entries} responses. If you expect more than {max_entries} "
+            "responses, try generating the report on a chapter-by-chapter, or problem-by-problem basis, or contact "
+            "your site administrator to increase the limit."
+msgstr "Количество ответов в создаваемом отчёте ограничено до {max_entries}. Если вы ожидаете больше {max_entries}, попробуйте создать отчёт по секциям или по тестированиям, либо обратитесь к администратору сайта, чтобы увеличить лимит."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:84
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/certificates.html:31
@@ -18120,22 +18138,38 @@ msgstr ""
 "Нажмите, чтобы создать оценочный лист с информацией обо всех обучающихся в "
 "формате CSV."
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:102
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:98
 msgid "Generate Grade Report"
-msgstr "Создать оценочный лист"
+msgstr "Создать отчёт с оценками"
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:103
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:99
 msgid "Generate Problem Grade Report"
-msgstr "Создать оценочный лист с подробными оценками задач"
+msgstr "Создать отчёт по задачам"
 
-#: lms/templates/instructor/instructor_dashboard_2/data_download.html:104
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:100
 msgid "Generate ORA Data Report"
 msgstr "Создать отчёт по заданиям с ответами в свободной форме"
+
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:101
+msgid "Generate ORA Summary Report"
+msgstr "Создать сводный отчёт по заданиям с ответами в свободной форме"
+
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:104
+msgid "Click to generate a ZIP file that contains all submission texts and attachments."
+msgstr "Нажмите, чтобы создать ZIP-файл, содержащий все тексты отправленных материалов и вложений."
+
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:106
+msgid "Generate Submission Files Archive"
+msgstr "Создать архив файлов для отправки"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:118
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2.html:48
 msgid "Reports Available for Download"
-msgstr "Оценочные листы, доступные для скачивания"
+msgstr "Отчёты, доступные для скачивания"
+
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:116
+msgid "The reports listed below are available for download, identified by UTC date and time of generation."
+msgstr "Перечисленные ниже отчеты доступны для скачивания и определяются по дате и времени создания в формате UTC."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:125
 msgid ""
@@ -18148,6 +18182,10 @@ msgstr ""
 "автоматическим фоновым процессом. Отчёт кумулятивный, так что ответы, "
 "опубликованные после старта процесса, включаются в последующий отчёт. Отчёты"
 " создаются несколько раз в день."
+
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html:127
+msgid "{strong_start}Note{strong_end}: {ul_start}{li_start}To keep student data secure, you cannot save or email these links for direct access. Copies of links expire within 5 minutes.{li_end}{li_start}Report files are deleted 90 days after generation. If you will need access to old reports, download and store the files, in accordance with your institution's data security policies.{li_end}{ul_end}"
+msgstr "{strong_start}Примечание{strong_end}: {ul_start}{li_start}В целях безопасности данных студентов Вы не можете сохранять или отправлять эти ссылки по электронной почте для прямого доступа. Срок действия копий ссылок истекает через 5 минут.{li_end}{li_start}Файлы отчётов удаляются через 90 дней после создания. Если вам потребуется доступ к старым отчётам, скачайте и сохраните их в соответствии с политикой безопасности данных вашего учебного заведения.{li_end}{ul_end}"
 
 #: lms/templates/instructor/instructor_dashboard_2/edit_coupon_modal.html:7
 msgid "Edit Coupon Code"
@@ -18181,6 +18219,14 @@ msgstr "Обновить код купона на скидку"
 msgid "Individual due date extensions"
 msgstr "Индивидуальные продления сроков сдачи"
 
+#: lms/templates/instructor/instructor_dashboard_2/extensions.html:9
+msgid ""
+"In this section, you have the ability to grant extensions on specific "
+"subsections to individual students. Please note that the latest date is "
+"always taken; you cannot use this tool to make an assignment due earlier for "
+"a particular student."
+msgstr "В этом разделе Вы можете продлить сроки сдачи отдельных модулей отдельным учащимся. Обратите внимание, что всегда используется самая поздняя дата; этот инструмент нельзя использовать для назначения более раннего срока сдачи задания конкретному учащемуся."
+
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html:15
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html:70
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html:93
@@ -18195,6 +18241,12 @@ msgstr "Укажите email или имя пользователя {platform_na
 msgid "Student Email or Username"
 msgstr "Email или имя пользователя"
 
+#: lms/templates/instructor/instructor_dashboard_2/extensions.html:20
+#: lms/templates/instructor/instructor_dashboard_2/extensions.html:55
+#: lms/templates/instructor/instructor_dashboard_2/extensions.html:98
+msgid "Choose the graded subsection:"
+msgstr "Выбрать оцениваемый модуль"
+
 #. Translators: "format_string" is the string MM/DD/YYYY HH:MM, as that is the
 #. format the system requires.
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html:31
@@ -18206,6 +18258,10 @@ msgstr ""
 "Укажите дату и время, до которого продлён срок сдачи (в UTC; пожалуйста, "
 "используйте формат {format_string})."
 
+#: lms/templates/instructor/instructor_dashboard_2/extensions.html:33
+msgid "Reason for extension"
+msgstr "Причина продления"
+
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html:39
 msgid "Change due date for student"
 msgstr "Изменить срок для слушателя"
@@ -18213,6 +18269,18 @@ msgstr "Изменить срок для слушателя"
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html:45
 msgid "Viewing granted extensions"
 msgstr "Просмотр продлённых сроков"
+
+#: lms/templates/instructor/instructor_dashboard_2/extensions.html:47
+msgid ""
+"Here you can see what extensions have been granted on particular subsection "
+"or for a particular student."
+msgstr "Здесь Вы можете увидеть, какие продления были предоставлены по определенному модулю или для конкретного студента."
+
+#: lms/templates/instructor/instructor_dashboard_2/extensions.html:51
+msgid ""
+"Choose a graded subsection and click the button to obtain a list of all "
+"students who have extensions for the given subsection."
+msgstr "Выберите оцениваемый модуль и нажмите кнопку, чтобы получить список всех студентов, у которых есть продления для данного модуля."
 
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html:63
 msgid "List all students with due date extensions"
@@ -18230,9 +18298,20 @@ msgstr "Показать дату продления для обучающего
 msgid "Resetting extensions"
 msgstr "Сброс продлённых сроков"
 
+#: lms/templates/instructor/instructor_dashboard_2/extensions.html:88
+msgid ""
+"Resetting a problem's due date rescinds a due date extension for a student "
+"on a particular subsection. This will revert the due date for the student "
+"back to the problem's original due date."
+msgstr "Сброс срока сдачи задачи отменяет продление срока сдачи для учащегося по определённому модулю. Это вернёт срок сдачи задачи к исходному сроку."
+
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html:111
 msgid "Reset due date for student"
 msgstr "Сброс срока сдачи для обучающегося"
+
+#: lms/templates/instructor/instructor_dashboard_2/extensions.html:105
+msgid "Reason for reset"
+msgstr "Причина сброса"
 
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html:7
 msgid "Generate Registration Code Modal"
@@ -18476,6 +18555,15 @@ msgstr ""
 " вас в качестве администратора обсуждений для добавления модераторов "
 "обсуждений и ассистентов преподавателей."
 
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:172
+msgid ""
+"Course team members with the Staff role help you manage your course. Staff "
+"can enroll and unenroll learners, as well as modify their grades and access "
+"all course data. Staff also have access to your course in Studio and "
+"Insights. Any users not yet enrolled in the course will be automatically "
+"enrolled when added as Staff."
+msgstr "Члены команды курса с ролью «Сотрудник» помогают Вам управлять вашим курсом. Сотрудники могут регистрировать и отчислять учащихся, а также изменять их оценки и получать доступ ко всем данным курса. Сотрудники также имеют доступ к вашему курсу в Studio и Insights. Любые пользователи, ещё не зачисленные на курс, будут автоматически зачислены при добавлении в качестве сотрудников."
+
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:179
 msgid "Add Staff"
 msgstr "Добавить сотрудников"
@@ -18695,12 +18783,25 @@ msgstr ""
 "Обратите внимание: эта функция доступна только для курсов с небольшим "
 "количеством слушателей."
 
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:22
+msgid "View a specific learner's enrollment status"
+msgstr "Просмотр статуса зачисления конкретного учащегося"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:25
+#, python-brace-format
+msgid "Learner's {platform_name} email address or username *"
+msgstr "Адрес электронной почты или имя пользователя учащегося {platform_name}*"
+
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:28
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:50
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:69
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:143
 msgid "Learner email address or username"
 msgstr "Электронная почта или имя пользователя"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:36
+msgid "View Enrollment Status"
+msgstr "Просмотреть статус регистраций"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:44
 msgid "View a specific learner's grades and progress"
@@ -18771,9 +18872,26 @@ msgstr ""
 "вы нажмёте «Перепроверить, только если оценка повысится», то оценка "
 "учащегося изменится, только если она улучшится в пользу ученика."
 
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:101
+msgid "Score Override"
+msgstr "Переопределение баллов"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:102
+msgid "For the specified problem, override the learner's score."
+msgstr "Для указанной задачи переопределить балл учащегося."
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:105
+msgid ""
+"New score for problem, out of the total points available for the problem"
+msgstr "Новый балл за задачу из общего количества доступных баллов"
+
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:108
 msgid "Score"
 msgstr "Балл"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:111
+msgid "Override Learner's Score"
+msgstr "Переопределить оценку учащегося"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:117
 msgid "Problem History"

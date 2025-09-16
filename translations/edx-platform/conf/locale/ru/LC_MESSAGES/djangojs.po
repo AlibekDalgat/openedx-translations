@@ -3,17 +3,17 @@
 # Copyright (C) 2025 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  underscore.po (PROJECT VERSION)  #-#-#-#-#
 # Translations template for PROJECT.
 # Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-# 
+#
 # Translators:
 # Brian Smith, 2024
 # edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -929,6 +929,14 @@ msgstr "Настройки"
 #: lms/static/js/views/fields.js:43
 msgid "Error"
 msgstr "Ошибка"
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/Main/Main.jsx:39
+msgid "Select a section or problem"
+msgstr "Выбрать секцию или тест"
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/Main/Main.jsx:82
+msgid "Create a report of problem responses"
+msgstr "Создать отчёт по ответам тестирования"
 
 #: cms/static/js/xblock_asides/structured_tags.js:23
 msgid "Updating Tags"
