@@ -930,6 +930,18 @@ msgstr "Настройки"
 msgid "Error"
 msgstr "Ошибка"
 
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx:13
+msgid "Your report is being generated..."
+msgstr "Твой отчёт генерируется..."
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx:20
+msgid "Your report has been successfully generated."
+msgstr "Твой отчёт полностью готов."
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx:25
+msgid "View Report"
+msgstr "Показать отчёт"
+
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/Main/Main.jsx:39
 msgid "Select a section or problem"
 msgstr "Выбрать секцию или тест"

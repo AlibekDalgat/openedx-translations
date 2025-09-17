@@ -7598,6 +7598,16 @@ msgstr "Прошёл срок сдачи"
 msgid "Show Answer"
 msgstr "Показать ответ"
 
+#. Translators: DO NOT translate the words in quotes here, they are
+#. specific words for the acceptable values.
+#: xmodule/modulestore/inheritance.py:93
+msgid ""
+"Specify when the Show Answer button appears for each problem. Valid values "
+"are \"always\", \"answered\", \"attempted\", \"closed\", \"finished\", "
+"\"past_due\", \"correct_or_past_due\", \"after_all_attempts\", "
+"\"after_all_attempts_or_correct\", \"attempted_no_past_due\", and \"never\"."
+msgstr "Укажите, когда должна появляться кнопка «Показать ответ» для каждой задачи. Допустимые значения: \"always\", \"answered\", \"attempted\", \"closed», \"finished\", \"past_due\", \"correct_or_past_due\", \"after_all_attempts\", \"after_all_attempts_or_correct\", \"attempted_no_past_due\" и \"never\"."
+
 #: xmodule/capa_block.py:230
 msgid ""
 "Defines when to show the answer to the problem. A default value can be set "
@@ -8057,6 +8067,10 @@ msgstr ""
 msgid "Course Display Name"
 msgstr "Отображаемое название курса"
 
+#: xmodule/course_block.py:388
+msgid "Enter the name of the course as it should appear in the course list."
+msgstr "Введите название курса, как оно должно отображаться в списке курсов."
+
 #: xmodule/course_block.py:394 xmodule/modulestore/inheritance.py:63
 msgid "Course Editor"
 msgstr "Редактор курса"
@@ -8154,6 +8168,12 @@ msgstr ""
 msgid "Course Is New"
 msgstr "Курс новый"
 
+#: xmodule/course_block.py:459
+msgid ""
+"Enter true or false. If true, the course appears in the list of new courses, "
+"and a New! badge temporarily appears next to the course image."
+msgstr "Введите значение true или false. Если true, курс появится в списке новых курсов, а рядом с изображением курса временно появится значок «Новый!»."
+
 #: xmodule/course_block.py:465
 msgid "Mobile Course Available"
 msgstr "Доступ к мобильной версии курса"
@@ -8169,6 +8189,13 @@ msgstr ""
 #: xmodule/course_block.py:471
 msgid "Video Upload Credentials"
 msgstr "Авторизация для загрузки видео"
+
+#: xmodule/course_block.py:473
+#, python-brace-format
+msgid ""
+"Enter the unique identifier for your course's video files provided by "
+"{platform_name}."
+msgstr "Введите уникальный идентификатор видеофайлов вашего курса, предоставленный {platform_name}."
 
 #: xmodule/course_block.py:478
 msgid "Course Not Graded"
@@ -8514,6 +8541,12 @@ msgstr ""
 msgid "Allow Public Wiki Access"
 msgstr "Общий доступ к вики"
 
+#: xmodule/course_block.py:741
+msgid ""
+"Enter true or false. If true, students can view the course wiki even if "
+"they're not enrolled in the course."
+msgstr "Введите значение true или false. Если true, студенты смогут просматривать вики-страницу курса, даже если они не зачислены на курс."
+
 #: xmodule/course_block.py:749
 msgid "Invitation Only"
 msgstr "Запись только по приглашению"
@@ -8623,6 +8656,15 @@ msgstr "Укажите язык обучения на вашем курсе."
 #: xmodule/course_block.py:840
 msgid "Teams Configuration"
 msgstr "Настройка команд"
+
+#: xmodule/course_block.py:843
+msgid ""
+"Configure team sets, limit team sizes, and set visibility settings using "
+"JSON. See <a target=\"&#95;blank\" href=\"https://docs.openedx.org/en/latest/"
+"educators/references/advanced_features/teams_configuration_options."
+"html>teams configuration documentation</a> for help and examples."
+msgstr "Настройте наборы команд, ограничьте их размер и задайте параметры видимости с помощью "
+"JSON. См. https://docs.openedx.org/en/latest/educators/references/advanced_features/teams_configuration_options.html документацию по настройке команд</a> для получения справки и примеров."
 
 #: xmodule/course_block.py:852
 msgid "Enable Proctored Exams"
@@ -8766,6 +8808,27 @@ msgstr ""
 "контуру курса) и \"public\" (разрешить доступ как к контуру, так и к "
 "содержанию курса)."
 
+#: xmodule/course_block.py:982
+msgid "Video Sharing Options"
+msgstr "Параметры обмена видео"
+
+#: xmodule/course_block.py:983
+msgid ""
+"Specify the video sharing options for the course. This can be set to one of "
+"three values: 'all-on', 'all-off' and 'per-video'. with 'per-video' as the "
+"default."
+msgstr "Укажите параметры публикации видео для курса. Доступны три значения: «all-on», «all-off» и «per-video». «per-video» — «per-video»."
+
+#: xmodule/course_block.py:998
+msgid "Force Flexible Grading for Peer ORAs"
+msgstr "Принудительная гибкая оценка для одноранговых ORA"
+
+#: xmodule/course_block.py:999
+msgid ""
+"Setting this flag will force on the flexible grading option for all peer-"
+"graded ORAs in this course."
+msgstr "Установка этого флага включит гибкую опцию оценивания для всех ORA, оцениваемых коллегами в этом курсе."
+
 #: xmodule/course_block.py:1018
 msgid "Course Instructor"
 msgstr "Инструктор курса"
@@ -8804,6 +8867,27 @@ msgstr ""
 "Введите, правда или неправда. Если это правда, любые основные моменты, "
 "связанные с содержанием в курсе, будут сообщаться учащимся по их расписанию."
 " "
+
+#: xmodule/course_block.py:1045
+msgid "Course-wide Custom JS"
+msgstr "Кастомный JS для всего курса"
+
+#: xmodule/course_block.py:1046
+msgid ""
+"Enter Javascript resource URLs you want to be loaded globally throughout the "
+"course pages."
+msgstr "Введите URL-адрес ресурсов JavaScript, которые Вы хотите загрузить глобально на всех страницах курса."
+
+#: xmodule/course_block.py:1051
+msgid "Course-wide Custom CSS"
+msgstr "Кастомный CSS для всего курса"
+
+#: xmodule/course_block.py:1052
+msgid ""
+"Enter CSS resource URLs you want to be loaded globally throughout the course "
+"pages."
+msgstr "Введите URL-адрес ресурсов CSS, которые Вы хотите загрузить глобально на всех страницах курса."
+
 
 #: xmodule/course_block.py:1056 cms/templates/certificates.html:112
 #: cms/templates/certificates.html:113
@@ -9210,6 +9294,16 @@ msgstr "Срок сдачи"
 msgid "Enter the default date by which problems are due."
 msgstr ""
 "Введите срок сдачи заданий, который будет использоваться по умолчанию."
+
+#: xmodule/modulestore/inheritance.py:53 xmodule/seq_block.py:84
+msgid "Number of Relative Weeks Due By"
+msgstr "Количество относительных недель, к которым необходимо сдать задачи"
+
+#: xmodule/modulestore/inheritance.py:54 xmodule/seq_block.py:85
+msgid ""
+"Enter the number of weeks the problems are due by relative to the learner's "
+"enrollment date"
+msgstr "Введите количество недель, к которым необходимо сдать задачи, относительно даты регистрации учащегося."
 
 #: xmodule/modulestore/inheritance.py:70
 msgid "GIT URL"
