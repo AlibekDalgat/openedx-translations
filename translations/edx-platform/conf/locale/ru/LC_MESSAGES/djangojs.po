@@ -1926,6 +1926,13 @@ msgstr "Вам будут возвращена сумма, которую вы �
 msgid "You will not be refunded the amount you paid."
 msgstr "Вам не будет возвращена сумма, которую вы заплатили."
 
+#: lms/static/js/discovery/views/search_form.js:47
+#, javascript-format
+msgid "Viewing %s course"
+msgid_plural "Показано %s курсов"
+msgstr[0] "Показано %s курсов"
+msgstr[1] "Покзан %s курс"
+
 #: lms/static/js/discovery/views/search_form.js:57
 #, javascript-format
 msgid "We couldn't find any results for \"%s\"."

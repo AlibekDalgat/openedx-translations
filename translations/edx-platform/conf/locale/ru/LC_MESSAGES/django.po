@@ -3040,6 +3040,10 @@ msgstr "зарегистрируйтесь"
 msgid "{sign_in_link} or {register_link}."
 msgstr "{sign_in_link} или {register_link}."
 
+#: lms/templates/header/navbar-not-authenticated.html:57
+msgid "Register for free"
+msgstr "Регистрация"
+
 #: lms/djangoapps/courseware/views/views.py:590
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.html:25
 #: lms/templates/header/navbar-not-authenticated.html:63
