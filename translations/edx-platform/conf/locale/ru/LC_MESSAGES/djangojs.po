@@ -3374,8 +3374,8 @@ msgstr[1] "{num_points} возможных баллов (оценено, рез�
 #: xmodule/js/src/capa/display.js:242
 msgid "{num_points} point possible (ungraded, results hidden)"
 msgid_plural "{num_points} points possible (ungraded, results hidden)"
-msgstr[0] "{num_points} возможный балл (неоценено, результаты скрыты)"
-msgstr[1] "{num_points} возможных баллов (неоценено, результаты скрыты)"
+msgstr[0] "{num_points} возможный балл (не оценено, результаты скрыты)"
+msgstr[1] "{num_points} возможных баллов (не оценено, результаты скрыты)"
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
@@ -3390,8 +3390,8 @@ msgstr[1] "{num_points} возможных баллов (оценено)"
 #: xmodule/js/src/capa/display.js:259
 msgid "{num_points} point possible (ungraded)"
 msgid_plural "{num_points} points possible (ungraded)"
-msgstr[0] "{num_points} возможный балл (неоценено)"
-msgstr[1] "{num_points} возможных баллов (неоценено)"
+msgstr[0] "{num_points} возможный балл (не оценено)"
+msgstr[1] "{num_points} возможных баллов (не оценено)"
 
 #. Translators: {earned} is the number of points earned. {possible} is the
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
@@ -3410,8 +3410,8 @@ msgstr[1] "{earned}/{possible} баллов (оценено)"
 #: xmodule/js/src/capa/display.js:276
 msgid "{earned}/{possible} point (ungraded)"
 msgid_plural "{earned}/{possible} points (ungraded)"
-msgstr[0] "{earned}/{possible} балла (неоценено)"
-msgstr[1] "{earned}/{possible} баллов (неоценено)"
+msgstr[0] "{earned}/{possible} балла (не оценено)"
+msgstr[1] "{earned}/{possible} баллов (не оценено)"
 
 #: xmodule/js/src/capa/display.js:349
 msgid "The grading process is still running. Refresh the page to see updates."
