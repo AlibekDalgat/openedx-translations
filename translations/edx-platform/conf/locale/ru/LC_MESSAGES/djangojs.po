@@ -2467,6 +2467,15 @@ msgstr ""
 msgid "Successfully enrolled the following users:"
 msgstr "Следующие пользователи успешно записаны на курс:"
 
+#: lms/static/js/instructor_dashboard/membership.js:792
+msgid "Email was sent to the following users. They will be allowed to enroll once they register:"
+msgstr "Письмо было отправлено следующим пользователям. Они смогут зачислиться после регистрации:"
+
+
+#: lms/static/js/instructor_dashboard/membership.js:816
+msgid "Email was sent to the following users. They will be enrolled once they register:"
+msgstr "Письмо было отправлено следующим пользователям. Они будут зачислены после регистрации:"
+
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:804
 msgid "These users will be allowed to enroll once they register:"
@@ -2907,6 +2916,10 @@ msgstr "Нет задач."
 #: lms/static/js/instructor_dashboard/util.js:501
 msgid "File Name"
 msgstr "Название файла"
+
+#: lms/static/js/instructor_dashboard/util.js:512
+msgid "View Report"
+msgstr "Посмотреть отчёт"
 
 #: lms/static/js/instructor_dashboard/util.js:502
 msgid ""
