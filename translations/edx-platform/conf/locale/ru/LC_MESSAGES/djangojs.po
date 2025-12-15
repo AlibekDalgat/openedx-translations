@@ -2917,10 +2917,6 @@ msgstr "Нет задач."
 msgid "File Name"
 msgstr "Название файла"
 
-#: lms/static/js/instructor_dashboard/util.js:512
-msgid "View Report"
-msgstr "Посмотреть отчёт"
-
 #: lms/static/js/instructor_dashboard/util.js:502
 msgid ""
 "Links are generated on demand and expire within 5 minutes due to the "
