@@ -59,5 +59,13 @@
   "profile.notfound.message": "Страница, которую вы ищете, недоступна или произошла ошибка в URL-адресе. Пожалуйста, проверьте URL-адрес и повторите попытку.",
   "profile.viewMyRecords": "Просмотреть мои записи",
   "profile.loading": "Загрузка профиля ...",
-  "profile.username.description": "Информация вашего профиля видна только вам. Другим пользователям на {siteName} видно только ваше имя пользователя."
+  "profile.username.description": "Информация вашего профиля видна только вам. Другим пользователям на {siteName} видно только ваше имя пользователя.",
+  "profile.rewards.my.rewards": "Мои награды",
+  "profile.rewards.no.rewards": "У вас ещё нет наград.",
+  "profile.header.dashboardLink": "Моё обучение",
+  "profile.header.discoveryLink": "Каталог обучения",
+  "profile.header.ratings": "Рейтинги",
+  "profile.header.profileLink": "Профиль",
+  "profile.header.accountLink": "Учётная запись",
+  "profile.header.exitLink": "Выйти"
 }
