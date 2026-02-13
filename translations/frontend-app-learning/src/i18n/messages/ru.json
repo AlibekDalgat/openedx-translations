@@ -374,7 +374,7 @@
   "courseExit.programs.lastCourse": "Вы завершили последний курс в {title}!",
   "courseCelebration.requestCertificateBodyText": "Чтобы получить доступ к своему сертификату, запросите его ниже.",
   "courseCelebration.requestCertificateButton": "Запросить сертификат",
-  "courseExit.searchOurCatalogLink": "Поиск по нашему каталогу",
+  "courseExit.searchOurCatalogLink": "Перейти в каталог",
   "courseCelebration.shareMessage": "Поделитесь своими успехами в социальных сетях или по электронной почте.",
   "courseExit.social.shareCompletionMessage": "Я только что завершил {title} с {platform}!",
   "courseExit.upgradeButton": "Улучшить подписку",
