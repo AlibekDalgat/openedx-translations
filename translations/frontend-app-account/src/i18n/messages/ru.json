@@ -156,7 +156,7 @@
   "account.settings.field.work.experience.empty": "Добавить опыт работы",
   "account.settings.field.work.experience.options.empty": "Выберите опыт работы",
   "error.notfound.message": "Страница, которую вы ищете, недоступна или произошла ошибка в URL-адресе. Пожалуйста, проверьте URL-адрес и повторите попытку.",
-  "account.page.title": "Аккаунт | {siteName}",
+  "account.page.title": "Учётная запись | {siteName}",
   "id.verification.access.blocked.denied": "В настоящее время мы не можем подтвердить вашу личность. Если вы еще не активировали свою учетную запись, проверьте папку со спамом и найдите электронное письмо с активацией от {email} .",
   "id.verification.next": "Вперёд",
   "id.verification.support": "Поддержка",
